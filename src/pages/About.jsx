@@ -4,11 +4,9 @@ import AboutSection from '../components/AboutSection';
 
 function About() {
   return (
-    <div className='h-screen bg-black text-white flex flex-col justify-start'>
-      <div className='max-w-screen-2xl'>
-          <Navbar></Navbar>
-          <AboutSection />
-      </div>
+    <div className='bg-black w-screen h-screen text-white '>
+      <Navbar></Navbar>
+      <AboutSection />
     </div>
   )
 }

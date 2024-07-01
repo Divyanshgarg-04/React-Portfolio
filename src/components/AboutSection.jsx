@@ -7,7 +7,7 @@ function AboutSection() {
         <div className='w-full h-8/9 flex flex-col sm:flex-row justify-center'>
             {/* Right Part */}
             <div className='h-1/2 w-[80%] mt-10 sm:h-[80%] sm:w-[40%] flex flex-row justify-end ml-10 sm:ml-10 sm:mt-20 '>
-                <img src={image} alt="my-image" className='h-full rounded-2xl' />
+                <img src={image} alt="my-image" className='h-full rounded-xl border-2 sm:border-4 border-white' />
             </div>
 
             {/* Left Part */}

@@ -23,7 +23,7 @@ export default function HomeComponent() {
                         a,
                     </div>
                     <div className='pt-1 sm:pt-2'>
-                        <h1 className='font-semibold type-fruit text-2xl sm:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600'> </h1>
+                        <h1 className='font-bold type-fruit text-2xl sm:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600'> </h1>
                     </div>
                 </div>
             </div>

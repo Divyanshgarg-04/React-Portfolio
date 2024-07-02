@@ -3,7 +3,7 @@ import React from 'react'
 function ContactComponent() {
   return (
     <div className='flex flex-row justify-center '>
-      <div className='h-full mt-8'>
+      <div className='mt-8'>
         <div className='m-4'>
             <label className='m-2 text-3xl font-semibold'>Name</label>
             <br />

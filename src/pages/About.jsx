@@ -4,7 +4,7 @@ import AboutSection from '../components/AboutSection';
 
 function About() {
   return (
-    <div className='bg-black w-screen h-screen text-white '>
+    <div className='bg-black h-screen text-white '>
       <Navbar></Navbar>
       <AboutSection />
     </div>

@@ -35,17 +35,17 @@ function Navbar() {
       <h1 className='text-3xl cursor-pointer p-2' onClick={handleHomeClick}>My Portfolio</h1>
        {/* left side  */}
       <div className='text-lg  flex-wrap flex flex-col sm:flex-row justify-start '>
-        <div className={`flex flex-row justify-start pr-4 hover:text-gray-400 cursor-pointer hover:underline underline-offset-[6px] transform motion-safe:hover:scale-105 ${activeLink === '/' ? 'underline' : ''}`} onClick={handleHomeClick}>
+        <div className={`flex flex-row justify-start pr-4 hover:text-gray-400 cursor-pointer underline-offset-[6px] transform motion-safe:hover:scale-105 ${activeLink === '/' ? 'underline' : ''}`} onClick={handleHomeClick}>
           <div className='pt-[9px] m-1 text-xl'>Home</div>
           <div className='pt-[17px]'>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5 underline">
               <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
               <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
             </svg>
           </div>
         </div>
 
-        <div className={`flex flex-row justify-start pr-4 hover:text-gray-400 cursor-pointer hover:underline underline-offset-[6px] transform motion-safe:hover:scale-105 ${activeLink === '/about' ? 'underline' : ''}`} onClick={handleAboutClick}>
+        <div className={`flex flex-row justify-start pr-4 hover:text-gray-400 cursor-pointer  underline-offset-[6px] transform motion-safe:hover:scale-105 ${activeLink === '/about' ? 'underline' : ''}`} onClick={handleAboutClick}>
           <div className='pt-[9px] m-1 text-xl'>About</div>
           <div className='pt-[17px]'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-5">
@@ -54,7 +54,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className={`flex flex-row justify-start pr-4 hover:text-gray-400 cursor-pointer hover:underline underline-offset-[6px] transform motion-safe:hover:scale-105 ${activeLink === '/projects' ? 'underline' : ''}`} onClick={handleProjectClick}>
+        <div className={`flex flex-row justify-start pr-4 hover:text-gray-400 cursor-pointer  underline-offset-[6px] transform motion-safe:hover:scale-105 ${activeLink === '/projects' ? 'underline' : ''}`} onClick={handleProjectClick}>
           <div className='pt-[9px] m-1 text-xl'>Projects</div>
           <div className='pt-[17px]'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5">
@@ -63,7 +63,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className={`flex flex-row justify-start pr-4 hover:text-gray-400 cursor-pointer hover:underline underline-offset-[6px] transform motion-safe:hover:scale-105 ${activeLink === '/contact' ? 'underline' : ''}`} onClick={handleContactClick}>
+        <div className={`flex flex-row justify-start pr-4 hover:text-gray-400 cursor-pointer  underline-offset-[6px] transform motion-safe:hover:scale-105 ${activeLink === '/contact' ? 'underline' : ''}`} onClick={handleContactClick}>
           <div className='pt-[9px] m-1 text-xl'>Contact</div>
           <div className='pt-[17px]'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">

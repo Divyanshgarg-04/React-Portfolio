@@ -2,8 +2,8 @@ import React from 'react'
 
 function Skills({children}) {
   return (
-    <div className='bg-white m-2 h-48 w-[15%] rounded-lg border-2 border-white'>
-      <div className='h-10 w-[80%]'>
+    <div className='bg-white m-2 mr-4 h-14 sm:h-48 rounded-lg border-white col-span-1 hover:border-8 border-red'>
+      <div className='h-10'>
         {children}
       </div>
     </div>
